@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSTTEST 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(assets/background.jpg);">
+    <all class="container">
+        <div class="content-container">
+            <div class="container1">
+                <header class="header">
+                    <hr>
+                    <h1>Rincian Pembelian 📃</h1>
+                    <hr>
+                    <br>
+                </header>
+
+                <section class="order-summary">
+                    <h2><u>Ringkasan Pesanan</u></h2>
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <b>Nama Makanan</b>
+                            </td>
+                            <td>
+                                <b>Jumlah</b>
+                            </td>
+                            <td>
+                                <b>Harga</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nasi Goreng
+                            </td>
+                            <td> 1 </td>
+                            <td>Rp.25000</td>
+                        </tr>
+                        <tr>
+                            <td>Es Teh Manis</td>
+                            <td> 1 </td>
+                            <td> Rp.5000</td>
+                        </tr>
+                        
+                    </table>
+                    <ttl style="margin-left: 75px;">
+                        <p><b>Pajak: Rp.2000</b></p>
+                        <p><b>Total Pesanan: Rp.30000</b></p>
+                        <p style="font-size: 28px;"><b>Total Tagihan: Rp.32000</b></p>
+                    </ttl>
+                    
+                </section>
+
+                <section class="payment-form">
+                    <hr>
+                    <h3>Formulir Pembayaran</h3>
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap:</label>
+                            <input type="text" id="name" name="name" required style="width: 300px;">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Alamat Pengiriman:</label>
+                            <input type="text" id="address" name="address" required style="width: 300px;">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="payment">Metode Pembayaran:</label>
+                            <select id="payment" name="payment" style="width: 323px;">
+                                <option value="Bank BCA">Bank BCA</option>
+                                <option value="Bank BRI">Bank BRI</option>
+                                <option value="Cash on Delivery">Cash on Delivery</option>
+                                <option value="GoPay">GoPay</option>
+                                <option value="OVO">OVO</option>
+                            </select>
+                        </div>
+
+                        <button type="submit">Bayar Sekarang</button>
+                    </form>
+                    
+                </section>
+            </div>
+            <div class="side-container">
+                <div class="container2">
+                <h4>Makanan Saya:</h4>
+                <div class="row">
+                    <gambar1>
+                        <img src="assets/nasi-goreng.jpeg" alt="gambar nasgor" width="135px" height="130px">
+                        <br> Nasi Goreng
+                    </gambar1>
+
+                    <gambar2>
+                        <img src="assets/es-teh-manis.jpeg" alt="gambar es-teh-manis" width="135px" height="130px" >
+                        <br> Es Teh Manis
+                    </gambar2>
+                </div>
+            </div>
+            <box3 class="container3">
+                <div><img src="assets/logo-resto.jpeg" alt="gambar resto" width="350px" height="300px"></div>
+            </box3>
+            </div>
+            
+        </div>
+        <footer class="footer">
+            <div class="plsplspls">
+                <p><b>Terimakasih telah memesan! Kami menantikan kunjungan anda kembali 😊</p></b>
+                <p><u>We always deliver food with the best taste, guaranteed to delight your palate.</u></p>
+            </div>
+        </footer>
+    </all>
+</body>
+</html>
