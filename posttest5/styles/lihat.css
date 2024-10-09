@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa'
+}
+
+body {
+    background-color: var(--base-color);
+    color: var(--text-color);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: var(--putih-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.shopping-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.shopping-table thead th {
+    background-color: var(--head-color);
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 1em;
+}
+
+.shopping-table tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.update-btn, .delete-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.update-btn:hover {
+    color: var(--hover-update);
+}
+
+.delete-btn:hover {
+    color: red;
+}
+
+.shopping-table tbody tr:hover {
+    background-color: var(--hover-table);
+}
+
+:root{
+    --head-color: #C0C78C;
+    --base-color: #FEFAE0;
+    --navbar-color: #A6B37D;
+    --content-color:#333333;
+    --base-variant: #e8e9ed;
+    --text-headercolor: white;
+    --text-color: #333333;
+    --secondary-text: #232738;
+    --accent-color: #0071ff;
+    --tambah-color: white;
+    --putih-color:white;
+    --hover-table: #f9f9f9;
+    --hover-update: rgb(109, 214, 109);
+    --hover-hapus: red;
+  }
+  
+  .darkmode{
+    --head-color: #495057;
+    --base-color: #2C2C2C ;
+    --navbar-color: #434F3B;
+    --content-color:#ffffff;
+    --base-variant: #2c2c2c;
+    --text-color: #ffffff;
+    --secondary-text: blue;
+    --tambah-color: white;
+    --putih-color:#333333;
+    --hover-table: #89848433;
+    --hover-update: white;
+    --hover-hapus: white;
+  }
+  
